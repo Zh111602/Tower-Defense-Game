@@ -1,0 +1,44 @@
+.statusText {
+    -fx-font-size: 30em;
+    -fx-alignment: center;
+}
+.nameInputText {
+    -fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);
+    -fx-max-width: 300px;
+}
+.label {
+    -fx-font-size: 15px;
+    -fx-pref-width: 200px;
+    -fx-text-fill: white;
+    -fx-font-weight: bolder;
+}
+.diffSelectBox {
+    -fx-pref-width: 300px;
+}
+
+.startButton {
+    -fx-pref-width: 150px;
+    -fx-pref-height: 25px;
+    -fx-alignment: center;
+}
+.innerVBox {
+    -fx-alignment: center-left;
+    -fx-spacing: 10px;
+    -fx-padding: 0px, 50px, 0px, 50px;
+}
+.outerVBox {
+    -fx-spacing: 25px;
+    -fx-alignment: center;
+    -fx-padding: 50px, 0px, 0px, 0px;
+}
+.outerHBox {
+    -fx-alignment: center;
+}
+#pane{
+    -fx-background-image: url("https://cdn1.epicgames.com/ue/product/Screenshot/Untitled%20design%2034-1920x1080-a5bc75ee0eabd80e6b9c116ad24a7ffd.png?resize=1&w=1920");
+    -fx-background-repeat: stretch;
+    -fx-background-size: stretch;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
